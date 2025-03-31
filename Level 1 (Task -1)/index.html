@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PranaVeda</title>
+    <style>
+        body {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif; 
+            font-size: 18px; 
+        }
+        .topnav a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 20px; 
+        }
+        .mind-balance {
+            color: #1422de;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .para, #about, .details p {
+            max-width: 900px; 
+            margin: 20px auto;
+            font-size: 22px; 
+            line-height: 2; 
+        }
+        form {
+            text-align: left;
+            font-size: 18px; 
+        }
+        input, select, textarea {
+            font-size: 18px; 
+            padding: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #button {
+            margin-top: 10px;
+            font-size: 18px;
+            padding: 5px 15px;
+        }
+        .logo {
+            width: 400px; 
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://equilibre-de-vie.fr/wp-content/uploads/2020/05/Logo-pranaveda.png" 
+         width="400" 
+         height="200" 
+         alt="PranaVeda Logo" 
+         class="logo">
+    
+    <div class="topnav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#registration">Registration</a>
+    </div>
+
+    <h1 class="head">A Space where healing and growth flourish.</h1>
+    <p class="para">A Sanctuary where modern psychology meets holistic well-being, guiding you toward 
+        inner peace, emotional resilience, and mental clarity, <br> because your Mental Health Matters.
+    </p>
+
+    <div id="about">
+        <h1 class="mind-balance">"Your Mind Seeks Balance - Let's Find it Together."</h1>
+        <p>PranaVeda revolutionizes mental wellness by blending modern psychology with ancient holistic healing, delivering innovative psychology-based emotional well-being and therapy. 
+            Our platform offers AI-powered mental health assessments, personalized therapy sessions, and self-help resources designed to foster 
+            emotional balance and resilience. Integrating cognitive-behavioral techniques with mindfulness and Ayurvedic 
+            principles, we provide a seamless approach to overcoming stress, anxiety, and emotional struggles.
+        </p>
+        <p>Through advanced cognitive-behavioral strategies and mindfulness techniques, we empower individuals to overcome anxiety, stress, and emotional challenges. 
+            With a strong commitment to mental health awareness, professional guidance, and confidential support, 
+            PranaVeda is transforming the way people access therapy—anytime, anywhere.
+        </p>
+    </div>
+
+    <div class="details">
+        <form>
+            Full Name: <input type="text" name="name" placeholder="First Name">
+            <input type="text" placeholder="Surname"><br><br>
+            Full Address: <input type="text" name="Address" placeholder="Your Address"><br><br>
+            <label for="state">State:</label>
+            <select id="state" name="state">
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Chattisgarh">Chattisgarh</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Delhi">Delhi</option>
+            </select><br><br>
+            Short Introduction: <textarea rows="5" cols="40"></textarea><br>
+            <input id="button" type="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+        <p>Visit our website: <a href="https://pranaveda.com" target="_blank">www.pranaveda.com</a></p>
+    </footer>    
+</body>
+</html>
